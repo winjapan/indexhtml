@@ -2,17 +2,18 @@
 /* header */
 
 header img{
-width: 300px;
-height: 300px;
+width: 100px;
+height: 100px;
 background: 	#f0f0f0;
 border-radius: 500px;
-margin: 20px 0 0 230px;
+margin: 20px 0 0 270px;
 
 }
+/* header nav */
 header nav ul{
 display: flex;
 list-style-type: none;
-margin: 20px 0 0 650px;
+margin: 0 0 0 650px;
 }
 
 header nav ul li{
@@ -30,36 +31,95 @@ header nav ul li a:hover
 }
 /* main */
 main h1{
-	text-align: center;
+
+	padding-top: 50px;
+}
+
+div p{
+	font-family: 'Karantina', cursive;
+	padding-left: 0%;
+	padding-bottom: 50px;
 }
 
 main section table{
 background: #f0f0f0;
+table-layout: fixed;
+text-align: left;
 
 }
-main section th .th{
-color: #ff0000;
+main section table th p{
+color:  #ffa500;
 }
-main section tr,
-main section td{
-padding: 0 0 0 700px;
-border-bottom: solid 1px #b8b8b8;
+
+main section td,
+main section th{
+padding: 0 0 0 500px;
+border-bottom: dashed 1px #b8b8b8;
 }
 
 main section th{
 	padding: 10px;
-	border-bottom: solid 1px #b8b8b8;
+	color:#86684B;
 }
-
+main section td{
+	padding-right: 200px;
+}
 /* footer */
 footer{
-	height: 30px;
-	background: #000000;
+	margin-top: 100px;
+	height: 50px;
+	background:  #3c3c3c;
+
 }
+
+
+
 footer small p{
 	text-align: center;
 	color: #ffffff;
-	margin: 20px 0 0;
+	padding-top: 30px;
 }
 
+.gftd{
+	color: white;
+	text-align: center;
+padding-top: 15px;
+}
 /* form */
+/* form table */
+form table{
+	 margin-left: 400px;
+	/* margin-right: ; */ 
+}
+
+form caption{
+	font-size: 24px;
+	font-weight: 900;
+	padding-left: 270px;
+}
+
+input[type="email"]{
+	width: 165%;
+	height: 30px;
+	border-radius: 0 0;
+	margin-bottom: 10px;
+}
+
+textarea{
+	width: 165%;
+	height: 400px;
+	border-radius: 0 0;
+}
+
+/* form input submit */
+input[type="submit"]{
+margin-left: 850px;
+width: 100px;
+height: 50px;
+background: #3c3c3c;
+border-radius: 0 0;
+}
+
+input[value="送信"]{
+	color: white;
+}
